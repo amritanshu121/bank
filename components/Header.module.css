@@ -72,9 +72,11 @@
 
 .mainLogo .container {
   display: flex;
-  justify-content: space-between; /* Push left and right items apart */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
+  padding: 0px;        
+  box-sizing: border-box;  /* includes padding inside width */
 }
 /* Logo on left */
 .logoContainer {
