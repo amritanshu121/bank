@@ -28,6 +28,7 @@
   font-weight: bold;
   margin-bottom: 1rem;
   text-align: center;
+  color: rgb(219,6,24);
 }
 
 .rdIntroContainer {
@@ -38,6 +39,7 @@
 .rdIntroTitle {
   font-size: 1.5rem;
   margin-bottom: 1rem;
+  color: rgb(219,6,24);
 }
 
 .rdIntroText {
@@ -51,6 +53,7 @@
 .rdRatesTitle {
   font-size: 1.25rem;
   margin-bottom: 1rem;
+  color: rgb(219,6,24);
 }
 
 .rdTable {
@@ -80,6 +83,7 @@
   padding: 1rem;
   background: #f9f9f9;
   border-radius: 8px;
+  color: rgb(219,6,24);
 }
 
 .rdConditionsNote {
@@ -100,11 +104,13 @@
   border-radius: 12px;
   padding: 1rem;
   text-align: center;
+  color: rgb(219,6,24);
 }
 
 .rdFeatureIcon {
   font-size: 2rem;
   margin-bottom: 0.5rem;
+  color: rgb(219,6,24);
 }
 
 .rdTermsContainer {
@@ -112,6 +118,7 @@
   padding: 1rem;
   background: #f9fafb;
   border-radius: 8px;
+  color: rgb(219,6,24);
 }
 
 .rdNavWrapper {
@@ -126,6 +133,7 @@
   padding: 1rem;
   border-radius: 12px;
   transition: transform 0.2s ease;
+  color: rgb(219,6,24);
 }
 
 .rdNavCard:hover {

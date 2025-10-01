@@ -35,7 +35,6 @@ export default function Footer() {
               <li><Link href="/about/overview">About Us</Link></li>
               <li><Link href="/branch-locator">Branch Locator</Link></li>
               <li><Link href="/customer-grievance">Customer Grievance</Link></li>
-              <li><Link href="/downloads/interest-rates">Interest Rates</Link></li>
               <li><Link href="/downloads/annual-reports">Annual Reports</Link></li>
             </ul>
           </div>
@@ -45,9 +44,11 @@ export default function Footer() {
             <ul className={styles.linkList}>
               <li><Link href="/accounts/savings">Savings Account</Link></li>
               <li><Link href="/loans/housing">Housing Loan</Link></li>
+              <li><Link href="/loans/education">Education Loan</Link></li>
               <li><Link href="/deposits/fixed">Fixed Deposits</Link></li>
-              <li><Link href="/services/internet-banking">Internet Banking</Link></li>
-              <li><Link href="/services/insurance">Insurance</Link></li>
+              <li><Link href="/deposits/recurring">Recurring Deposits</Link></li>
+              
+             
             </ul>
           </div>
 

@@ -4,7 +4,7 @@
 }
 
 .hero {
-  background: linear-gradient(135deg, #8B4B6B 0%, #A0566C 100%);
+  background: linear-gradient(135deg, rgb(219, 6, 24) 0%, rgb(150, 0, 20) 100%);
   color: white;
   padding: 80px 20px;
   display: grid;
@@ -70,7 +70,7 @@
 .intro h2 {
   font-size: 2.5rem;
   font-weight: bold;
-  color: #8B4B6B;
+  color: rgb(219, 6, 24); /* theme red */
   margin-bottom: 25px;
 }
 
@@ -106,7 +106,7 @@
   left: -100%;
   width: 100%;
   height: 4px;
-  background: linear-gradient(90deg, #8B4B6B, #A0566C);
+  background: linear-gradient(90deg, rgb(219, 6, 24), rgb(150, 0, 20));
   transition: left 0.3s ease;
 }
 
@@ -116,8 +116,8 @@
 
 .memberCard:hover {
   transform: translateY(-10px);
-  box-shadow: 0 20px 40px rgba(139, 75, 107, 0.15);
-  border-color: rgba(139, 75, 107, 0.2);
+  box-shadow: 0 20px 40px rgba(219, 6, 24, 0.15);
+  border-color: rgba(219, 6, 24, 0.2);
 }
 
 .imageContainer {
@@ -131,12 +131,12 @@
   height: 120px;
   border-radius: 50%;
   object-fit: cover;
-  border: 4px solid #8B4B6B;
+  border: 4px solid rgb(219, 6, 24);
   transition: all 0.3s ease;
 }
 
 .memberCard:hover .memberImage {
-  border-color: #A0566C;
+  border-color: rgb(150, 0, 20);
   transform: scale(1.05);
 }
 
@@ -154,11 +154,12 @@
 
 .memberDesignation {
   font-size: 1rem;
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
 }
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {

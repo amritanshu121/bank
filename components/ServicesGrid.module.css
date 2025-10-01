@@ -17,6 +17,9 @@
 
 .serviceCard {
   padding: 30px 25px;
+  text-decoration: none; 
+  color: inherit;          
+  display: block;
   border-radius: 15px;
   transition: all 0.3s ease;
   border: 2px solid transparent;

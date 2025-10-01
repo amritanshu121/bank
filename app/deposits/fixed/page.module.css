@@ -33,7 +33,7 @@
   font-weight: 700;
   margin-bottom: 2rem;
   text-align: center;
-  color: #222;
+  color: rgb(219, 6, 24); /* theme color */
 }
 
 /* Plans */
@@ -68,13 +68,13 @@
 }
 
 .planTitle {
-  color: #333;
+  color: rgb(219, 6, 24);
 }
 
 .icon {
   width: 18px;
   height: 18px;
-  color: #555;
+  color: rgb(219, 6, 24);
 }
 
 .planDescriptionWrapper {
@@ -99,7 +99,7 @@
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
-  color: #111;
+  color: rgb(219, 6, 24);
 }
 
 .tableWrapper {
@@ -121,7 +121,7 @@
 .th {
   background: #f9fafb;
   font-weight: 600;
-  color: #333;
+  color: rgb(219, 6, 24);
 }
 
 .td {
@@ -139,6 +139,7 @@
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
+  color: rgb(219, 6, 24);
 }
 
 .millionaireGrid {
@@ -163,7 +164,7 @@
 .millionaireCardTitle {
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: #222;
+  color: rgb(219, 6, 24);
 }
 
 .millionaireDetails {
@@ -181,6 +182,7 @@
   font-weight: 700;
   margin-bottom: 1rem;
   text-align: center;
+  color: rgb(219, 6, 24);
 }
 
 .termsContent {
@@ -197,7 +199,7 @@
   font-weight: 600;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
-  color: #333;
+  color: rgb(219, 6, 24);
 }
 
 .termsExtra {
@@ -215,7 +217,7 @@
 .navCard {
   display: inline-block;
   max-width: 400px;
-  text-decoration: none;
+  text-decoration: none !important; /* remove underline */
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   overflow: hidden;
@@ -227,6 +229,7 @@
 .navCard:hover {
   transform: translateY(-4px);
   box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+  border-color: rgb(219, 6, 24);
 }
 
 .navImage {
@@ -239,7 +242,7 @@
   font-size: 1.2rem;
   font-weight: 600;
   margin-top: 0.75rem;
-  color: #222;
+  color: rgb(219, 6, 24);
 }
 
 .navDescription {

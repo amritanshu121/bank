@@ -138,7 +138,6 @@ export default function Header() {
                   <Link href="/accounts/salary">Salary Account</Link>
                   <Link href="/accounts/basic-savings">Basic-savings Account</Link>
                   <Link href="/accounts/smart-kid">Smart-kid Account</Link>
-                  <Link href="/accounts/nro-nre">Nro-Nre Account</Link>
                   <Link href="/accounts/corporate">Corporate Account</Link>
                 </div>
               )}
@@ -160,7 +159,7 @@ export default function Header() {
                 <div className={`${styles.dropdownMenu} ${styles.open}`}>
                   <Link href="/deposits/fixed">Fixed Deposits</Link>
                   <Link href="/deposits/recurring">Recurring Deposits</Link>
-                  <Link href="/deposits/tax-saver">Tax Saver Deposits</Link>
+                  
                 </div>
               )}
             </div>
@@ -204,10 +203,10 @@ export default function Header() {
               </button>
               {activeDropdown === 'services' && (
                 <div className={`${styles.dropdownMenu} ${styles.open}`}>
-                  <Link href="/awareness/internet-banking">Internet Banking</Link>
-                  <Link href="/awareness/mobile-banking">Mobile Banking</Link>
-                  <Link href="/awareness/upi">UPI Services</Link>
-                  <Link href="/awareness/insurance">Insurance</Link>
+                  <Link href="/awareness/safety">SAFETY MEASURES</Link>
+                  <Link href="/awareness/attacks">Types of attacks</Link>
+                  <Link href="/awareness/guide">RBI Guidelines</Link>
+                  <Link href="/awareness/cyberawareness">Cyber Security Awareness</Link>
                 </div>
               )}
             </div>
@@ -331,14 +330,14 @@ export default function Header() {
       </button>
       {activeDropdown === 'deposit' && (
         <div className={styles.dropdownContent}>
-          <Link href="/deposit/fixed" onClick={() => setMobileMenuOpen(false)}>Fixed Deposit</Link>
-          <Link href="/deposit/recurring" onClick={() => setMobileMenuOpen(false)}>Recurring Deposit</Link>
+          <Link href="/deposits/fixed" onClick={() => setMobileMenuOpen(false)}>Fixed Deposit</Link>
+          <Link href="/deposits/recurring" onClick={() => setMobileMenuOpen(false)}>Recurring Deposit</Link>
           </div>
       )}
     </div>
 
     
-    <Link href="/awareness/internet-banking" onClick={() => setMobileMenuOpen(false)}>AWARENESS</Link>
+    <Link href="/awareness/safety" onClick={() => setMobileMenuOpen(false)}>SAFETY MEASURES</Link>
     <Link href="/service-charges/internet-banking" onClick={() => setMobileMenuOpen(false)}>SERVICE CHARGES</Link>
     <Link href="/downloads/forms" onClick={() => setMobileMenuOpen(false)}>DOWNLOADS</Link>
     <Link href="/reports" onClick={() => setMobileMenuOpen(false)}>ANNUAL REPORTS</Link>

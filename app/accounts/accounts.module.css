@@ -1,9 +1,12 @@
 .container {
   min-height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
 }
 
 .hero {
-  background: linear-gradient(135deg, #8B4B6B 0%, #A0566C 100%);
+  background: linear-gradient(135deg, rgb(219, 6, 24) 0%, rgb(150, 0, 20) 100%);
   color: white;
   padding: 80px 20px;
   text-align: center;
@@ -53,7 +56,7 @@
 }
 
 .section h2 {
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   font-size: 2rem;
   margin-bottom: 30px;
   font-weight: 600;
@@ -83,7 +86,7 @@
 }
 
 .featureIcon {
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   flex-shrink: 0;
   margin-top: 5px;
 }
@@ -123,7 +126,7 @@
 }
 
 .reqSection h3 {
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   font-size: 1.4rem;
   margin-bottom: 20px;
   font-weight: 600;
@@ -168,7 +171,7 @@
 }
 
 .docCategory h3 {
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   font-size: 1.3rem;
   margin-bottom: 20px;
   font-weight: 600;
@@ -192,7 +195,7 @@
   content: '•';
   position: absolute;
   left: 0;
-  color: #8B4B6B;
+  color: rgb(219, 6, 24);
   font-weight: bold;
 }
 
@@ -219,8 +222,8 @@
 
 .accountCard:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(139, 75, 107, 0.15);
-  border-color: rgba(139, 75, 107, 0.2);
+  box-shadow: 0 15px 35px rgba(219, 6, 24, 0.15);
+  border-color: rgba(219, 6, 24, 0.2);
 }
 
 .accountImage {
@@ -251,6 +254,7 @@
   line-height: 1.5;
   margin: 0;
 }
+
 
 /* Responsive Design */
 @media (max-width: 1200px) {
